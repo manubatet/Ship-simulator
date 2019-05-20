@@ -1,4 +1,12 @@
 # Ship-simulator
+# Running
+Download all the files. Take into account that it is not directly executed by python, it is executed by Blender. So open the terminal and go to the 4macro.py file. Once there you have to know the location of blender's app. You have to execute the blender's app with the terminal. Blender execute python also, so an example for the execution will be:
+
+/Applications/Blender/blender.app/Contents/MacOS/blender -b -P 4macro.py
+
+where -b means background execution and -P means python language
+
+note:blender.app/Contents/MacOS/blender is for mac's case, normaly its enough to refer the application (do not confuse it with the application folder)
 # Introduction
 This is a report about the simulator that I did during my internship at ENSTA. The aim of the simulator is to get easily a lot of data in order to build a model to predict the pitch and the roll of a ship.
 
