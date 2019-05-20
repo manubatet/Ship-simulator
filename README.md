@@ -21,8 +21,8 @@ Due to the impossibility of putting into a python script the render part, it is 
 As i said before, the trajectory of the boat is a circle. The first thing the algorithm does is to create a plane and subdivide it twice. After that it makes the plane follow the circle but with the condition that the vertex of the subdivision should be together and setting the velocity of the plane. After that it creates a cube and it links it to the plane computing the middle between the vertex named before and the center of the cube.\\
 After that it creates a camera and links it in a constant size from the cube to make. The link is also for the angles of the camera with respect to the cube but the pitch and the roll of the camera are disabled so it will be stabilized no matter the pitch and the roll of the ship
 
-# Parameter that are not in the script
-There are some parameter that are not in the script but can be easily change in order to have more and different data
+# Parameters that are not in the script
+There are some parameters that are not in the script but can be easily change in order to have more and different data
 ## Change the sky
 Changing the sky will not change only the sky, it will change also how the light affect the water and how it is reflected. It is very easy to change. Just open blender and go to the 'world' option in the Properties (normaly at the right part of the screen) and go to surface. There will be an image .jpg or .png selected, go to the folder draw and select the new one. Take into account that you will need a 360 degrees sky image, not just a photo.
 ## Link again the camera and the boat
