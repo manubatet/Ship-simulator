@@ -1,6 +1,6 @@
 # Ship-simulator
 # User instructions
-he instructions for directly using the program are summarized here:
+The instructions for directly using the program are summarized here:
 - Install bpy package for Python (Blender as a python module), available at pip application (just do pip install bpy). Documentation if needed: https://pypi.org/project/bpy/ 
 - Download all the files from git: https://github.com/manubatet/Ship-simulator.
 -It has to be taken into account that it is not directly executed by python, it is executed by Blender. So open the terminal and go to the 4macro.py file.
